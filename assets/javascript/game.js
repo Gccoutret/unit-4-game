@@ -20,10 +20,59 @@ $("document").ready(function(){
    currentScore=0
 
   }
+  function scoreCheck(){
+      if(currentScore === targetScore){
+      alert("You Win!");
+      wins++;
+      resetGame();
+      updateScore();
+    
+    }else if (currentScore > targetScore){
+      alert("You Lose!");
+      losses++;
+      resetGame();
+      updateScore();
+    }
+  }
+    
 
   function updateScore(){
-    
+    $("#winner").text(wins);
+    $("#losser").text(losses);
+    resetDom();
   }
+  function resetDom(){
+    $("target").text(targetScore)
+    $("current").text(currentScore)
+  }
+
+    $("one").on('click', function(){
+    currentScore += crystalOne;
+    $("current").text(currentScore);
+      scoreCheck();
+    })
+
+
+    $("two").on('click', function(){
+    currentScore += crystalOne;
+    $("current").text(currentScore);
+    scoreCheck();
+      })
+
+
+    $("three").on('click', function(){
+     currentScore += crystalOne;
+     $("current").text(currentScore);
+     scoreCheck();
+      })
+  
+    $("four").on('click', function(){
+      currentScore += crystalOne;
+      $("current").text(currentScore);
+      scoreCheck();
+      })
+
+  updateScore();
 
 
 
