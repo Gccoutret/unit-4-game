@@ -44,10 +44,10 @@ $("document").ready(function(){
       $(".winner").text(wins);
       $(".loser").text(losses);
       resetDom();
-      console.log(crystalOne)
-      console.log(crystalTwo)
-      console.log(crystalThree)
-      console.log(crystalFour)
+      console.log(crystalOne +" crystal 1")
+      console.log(crystalTwo +" crystal 2")
+      console.log(crystalThree+" crystal 3")
+      console.log(crystalFour+" crystal 4")
   }
     function resetDom(){
       $(".target").text(targetScore)
