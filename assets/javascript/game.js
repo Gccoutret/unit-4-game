@@ -18,6 +18,10 @@ $("document").ready(function(){
    crystalFour = Math.floor(Math.random()*12)+1;
    targetScore = Math.floor(Math.random()*(120-19+1) +19);
    currentScore=0;
+   console.log(crystalOne)
+   console.log(crystalTwo)
+   console.log(crystalThree)
+   console.log(crystalFour)
 
   }
   function scoreCheck(){
@@ -40,6 +44,10 @@ $("document").ready(function(){
       $(".winner").text(wins);
       $(".loser").text(losses);
       resetDom();
+      console.log(crystalOne)
+      console.log(crystalTwo)
+      console.log(crystalThree)
+      console.log(crystalFour)
   }
     function resetDom(){
       $(".target").text(targetScore)
