@@ -1,5 +1,5 @@
 # unit-4-game
-Homework 4 crystal game
+Homework 4 - Crystal Count
 
 In this game, you are given an initial target value. Your goal is to use the crystals, which will each randomly get a value between 1 and 12, to reach the target value. 
 
