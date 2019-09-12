@@ -1,17 +1,37 @@
+body{
+  
+  background-image: linear-gradient(darkgrey, black);
+}
+
+.jumbotron{
+  background-color: grey;
+  color:white;
+}
 .whole{
   width: 75%;
   margin: auto;
+  background-image: linear-gradient(darkgrey, black);
 }
 
 h1{
 text-align: center;
 font-weight: bold;
-
 }
+
 
 p{
   text-align: center;
 }
 h5{
   text-align: center;
+}
+
+.card{
+  background-color: grey;
+  color:white;
+  margin-bottom: 20px;
+}
+
+.jumbotron-2{
+  margin-top: 15px;
 }

@@ -54,20 +54,20 @@ $("document").ready(function(){
 
 
     $(".two").on('click', function(){
-    currentScore += crystalOne;
+    currentScore += crystalTwo;
     $(".current").text(currentScore);
     scoreCheck();
       })
 
 
     $(".three").on('click', function(){
-     currentScore += crystalOne;
+     currentScore += crystalThree;
      $(".current").text(currentScore);
      scoreCheck();
       })
   
     $(".four").on('click', function(){
-      currentScore += crystalOne;
+      currentScore += crystalFour;
       $(".current").text(currentScore);
       scoreCheck();
       })
